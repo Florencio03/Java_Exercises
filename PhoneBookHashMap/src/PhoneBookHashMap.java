@@ -118,7 +118,7 @@ public class PhoneBookHashMap {
                 }
             }
         } catch (NumberFormatException nfe) {
-            
+
             System.out.println("Invalid input. Please enter a valid number.");
         }
     }

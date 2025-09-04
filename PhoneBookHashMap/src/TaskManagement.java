@@ -9,11 +9,8 @@ import java.io.PrintWriter;
 public class TaskManagement {
     public static void main(String s[]) {
         try {
-            // Create a Scanner object to read user input
             Scanner scanner = new Scanner(System.in);
-            // Create a HashMap to store names (keys) and phone numbers (values)
             HashMap<String, Task> taskBook = new HashMap<>();
-            // Infinite loop to keep the program running until the user chooses to exit
             while (true) {
                 // Display the menu options to the user
                 System.out.println(
