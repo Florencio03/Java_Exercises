@@ -12,7 +12,7 @@ public class TaskManagement {
             Scanner scanner = new Scanner(System.in);
             HashMap<String, Task> taskBook = new HashMap<>();
             while (true) {
-                
+
                 System.out.println(
                         "Press 1 to add an entry in the Taskbook," +
                                 "\n2 to view all the tasks" +
